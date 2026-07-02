@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="ToDOTracker/Localizable.xcstrings" source-language="en" target-language="es-419" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
+    </header>
+    <body>
+      <trans-unit id="%lld / %lld completed" xml:space="preserve">
+        <source>%1$lld / %2$lld completed</source>
+        <note from="auto-generated">A title that shows the number of completed tasks and the total number of tasks.</note>
+      </trans-unit>
+      <trans-unit id="%lld%%" xml:space="preserve">
+        <source>%lld%%</source>
+        <note from="auto-generated">A label displaying the percentage of tasks that have been completed. The argument is the percentage of tasks that have been completed.</note>
+      </trans-unit>
+      <trans-unit id="Add Task +" xml:space="preserve">
+        <source>Add Task +</source>
+        <note from="auto-generated">A button that adds a task to a task group.</note>
+      </trans-unit>
+      <trans-unit id="Cancel" xml:space="preserve">
+        <source>Cancel</source>
+        <note from="auto-generated">A button that dismisses the current view.</note>
+      </trans-unit>
+      <trans-unit id="E.g Work, School ..." xml:space="preserve">
+        <source>E.g Work, School ...</source>
+        <note from="auto-generated">A placeholder text for a text field.</note>
+      </trans-unit>
+      <trans-unit id="Group Name" xml:space="preserve">
+        <source>Group Name</source>
+        <note from="auto-generated">A label for the group name field.</note>
+      </trans-unit>
+      <trans-unit id="New Group" xml:space="preserve">
+        <source>New Group</source>
+        <note from="auto-generated">A title for a screen that lets the user create a new task group.</note>
+      </trans-unit>
+      <trans-unit id="Progress of my tasks" xml:space="preserve">
+        <source>Progress of my tasks</source>
+        <note from="auto-generated">A heading for the progress of the user's tasks.</note>
+      </trans-unit>
+      <trans-unit id="Save" xml:space="preserve">
+        <source>Save</source>
+        <note from="auto-generated">A button that saves a new task group.</note>
+      </trans-unit>
+      <trans-unit id="Select Icon" xml:space="preserve">
+        <source>Select Icon</source>
+        <note from="auto-generated">A section that lets the user select an icon for their new task group.</note>
+      </trans-unit>
+      <trans-unit id="Select a Group" xml:space="preserve">
+        <source>Select a Group</source>
+        <note from="auto-generated">A placeholder text displayed when no task group is selected.</note>
+      </trans-unit>
+      <trans-unit id="Task Title" xml:space="preserve">
+        <source>Task Title</source>
+        <note from="auto-generated">A label for the title of a task.</note>
+      </trans-unit>
+      <trans-unit id="ToDoTracker" xml:space="preserve">
+        <source>ToDoTracker</source>
+        <note from="auto-generated">The name of the app.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ToDOTracker/ToDOTracker-InfoPlist.xcstrings" source-language="en" target-language="es-419" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>ToDOTracker</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
