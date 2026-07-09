@@ -8,6 +8,7 @@
 import XCTest
 
 final class ToDOTrackerUITests: XCTestCase {
+    let app = XCUIApplication()
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -20,6 +21,40 @@ final class ToDOTrackerUITests: XCTestCase {
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+    }
+    
+    func testLaunchEnglish() {
+        app.launchArguments = ["-AppleLanguages", "(en)"]
+        app.launch()
+        
+        // Look foe header on intinal screen
+        let header = app.staticTexts["Who is working today?"]
+        XCTAssertTrue(header.exists, "The header is not displaying the correct message")
+    
+    }
+    
+    func testLaunchSpanish() {
+        app.launchArguments = ["-AppleLanguages", "(es)"]
+        app.launch()
+        
+        let header = app.staticTexts["¿Quién está trabajando hoy?"]
+        XCTAssertTrue(header.exists, "The header is not displaying the correct message in spanish")
+    }
+    
+    func testLaunchJapanese() {
+        app.launchArguments = ["-AppleLanguages", "(ja-JP)"]
+        app.launch()
+        
+        let header = app.staticTexts["今日働いているのは誰ですか"]
+        XCTAssertTrue(header.exists, "The header is not displaying the correct message in Japanese")
+    }
+    
+    func testLaunchArabic() {
+        app.launchArguments = ["-AppleLanguages", "(ar)"]
+        app.launch()
+        
+        let header = app.staticTexts["من يعمل اليوم؟"]
+        XCTAssertTrue(header.exists, "The header is not displaying the correct message in Arabic")
     }
 
     @MainActor

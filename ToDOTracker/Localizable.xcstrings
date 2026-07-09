@@ -431,6 +431,18 @@
             "state" : "translated",
             "value" : "من يعمل اليوم؟"
           }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Quién está trabajando hoy?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日働いているのは誰ですか"
+          }
         }
       }
     }

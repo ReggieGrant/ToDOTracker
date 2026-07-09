@@ -25,6 +25,7 @@ struct ContentView: View {
                     NavigationLink(value: group) {
                         Label(group.title, systemImage: group.symbolName)
                     }
+                    .accessibilityIdentifier("GroupNameLink\(group.title)")
                 }
             }
             .navigationTitle(Text(profile.name))
@@ -40,6 +41,7 @@ struct ContentView: View {
                             .padding(8)
                             .background(Circle().fill(Color.primary.opacity(0.1)))
                     }
+                    .accessibilityIdentifier("BackButton")
                 }
                 ToolbarItem(placement: .primaryAction) {
                     Button {
@@ -47,6 +49,7 @@ struct ContentView: View {
                     } label: {
                         Image(systemName: "plus")
                     }
+                    .accessibilityIdentifier("AddGroupButton")
                 }
             }
         } detail: {
